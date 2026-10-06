@@ -1,0 +1,17 @@
+#caixa{
+    width: 200px;
+    height: 200px;
+    background-color:#145ddc ;
+    animation: normal mudarCor 2s ease-in-out;
+}
+
+@keyframes mudarCor{
+    from{
+     background-color: crimson;
+    }
+
+    to{
+      background-color: #145ddc;
+    }
+}
+

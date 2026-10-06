@@ -1,0 +1,42 @@
+#caixa01{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    animation: normal mudarCor 2s ease-in-out;
+    border-radius: 100%;
+
+}
+
+@keyframes mudarCor{
+    from{
+      background-color: blueviolet;
+      border-radius: 0;
+    } 
+
+    to{
+        background-color: darkred;
+        border-radius: 100%;
+    }
+
+}
+
+#caixa02{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    animation: infinite rotacao 3s ease-in-out;
+    
+}
+
+
+@keyframes rotacao {
+    from{
+      background-color: mediumblue;
+      transform: rotate(0deg);
+    }
+
+    to{
+       background-color: #242424;
+       transform: rotate(360deg)
+    }
+}
